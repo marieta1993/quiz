@@ -38,6 +38,8 @@ class _QuizScreenState extends State<QuizScreen> {
                         children: [
                           Text(
                             incrementValue.toString(),
+                            style: const TextStyle(
+                                fontSize: 36.0, color: Colors.white),
                           ),
                         ],
                       ),
@@ -66,6 +68,8 @@ class _QuizScreenState extends State<QuizScreen> {
                         children: [
                           Text(
                             decrementValue.toString(),
+                            style: const TextStyle(
+                                color: Colors.white, fontSize: 36.0),
                           ),
                         ],
                       ),
